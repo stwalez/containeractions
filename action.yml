@@ -13,7 +13,7 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ inputs.myInput }}
+    - ${{ inputs.someInput }}
 
 # inputs : data that the action expects to use during runtime, stored as environment variables.
 # outputs: output parameters allow you to take actions that have been run previously in the build and output them at the end of the build log
