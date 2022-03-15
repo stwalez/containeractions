@@ -2,7 +2,7 @@ name: 'my first container action'
 description: 'Test phase'
 author: 'Olawale'
 inputs:
-  myInput:
+  anyInput:
     description: 'greeting to use'
     required: true
     default: 'Awesome Guru'
