@@ -10,7 +10,7 @@ jobs:
       id: anyID
       uses: ./
       with:
-        anInput: 'Wale'
+        anyInput: 'Wale'
     - name: output the memory
       run: |
         echo ${{ steps.anyID.outputs.memory }}
