@@ -12,3 +12,7 @@ outputs:
 runs:
   using: 'docker'
   image: 'Dockerfile'
+
+# inputs : data that the action expects to use during runtime, stored as environment variables.
+# outputs: output parameters allow you to take actions that have been run previously in the build and output them at the end of the build log
+# runs: allows you to choose the type of Github Action we want to use
